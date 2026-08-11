@@ -239,8 +239,8 @@ func DefaultKeyMap() KeyMap {
 		key.WithHelp("G", "end"),
 	)
 	km.Chat.EndFollow = key.NewBinding(
-		key.WithKeys("ctrl+end"),
-		key.WithHelp("ctrl+end", "end & follow"),
+		key.WithKeys("ctrl+end", "ctrl+b"),
+		key.WithHelp("ctrl+end/ctrl+b", "end & follow"),
 	)
 	km.Chat.Copy = key.NewBinding(
 		key.WithKeys("c", "y", "C", "Y"),
